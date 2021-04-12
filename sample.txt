@@ -1,0 +1,31 @@
+int[][] jaggedarray = new int[2][];
+            jaggedarray[0] = new int[] { 10, 20, 30, 40, 50 };
+            jaggedarray[0] = new int[] { 60, 70, 80 };
+from ranjeetkaur Bhachu to everyone:    12:19 PM
+class Employee
+    {
+        public int Empid { get; set; }
+        public string Name { get; set; }
+        public string Dept { get; set; }
+        public override string ToString()
+        {
+            return "EmpID: " + Empid + "\t" + "Name: " + Name + "\t" + "Dept: " + Dept;
+        }
+    }
+from ranjeetkaur Bhachu to everyone:    12:20 PM
+private static void emp_array()
+        {
+            Employee[] emps = new Employee[2];
+            emps[0] = new Employee()
+            {
+                Empid=1,
+                Name="Emp1",
+                Dept="Admin"
+            };
+            emps[1] = new Employee()
+            {
+                Empid = 2,
+                Name = "Emp3",
+                Dept = "HR"
+            };
+        }

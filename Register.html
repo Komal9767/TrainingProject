@@ -1,0 +1,204 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>Chatbot</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0"/>
+        <meta charset="utf-8" />
+        <link rel="shortcut icon" href="image/favicon.ico" type="image/x-icon" />
+        <meta name="robots" content="index, follow" />
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <meta http-equiv="content-language" content="en" />
+        <meta name="keywords" content="mz,mzcreatives,creatives,template,website,onepage,webdesign,portfolio,build website,themeforest" />
+        <meta name="description" content="Now you can buy or use template from themeforest design by mzcreatives" />
+        <meta property="og:title" content="One page website template for multipurpose website" />
+
+
+        <!---Common css---->
+        <link href="static/css/common.css" rel="stylesheet" type="text/css" />
+        <!----Media queries css--->
+        <link href="static/css/style.css" type="text/css" rel="stylesheet" />
+        <link href="static/css/theme1024.css" rel="stylesheet" type="text/css" />
+        <link href="static/css/theme990.css" rel="stylesheet" type="text/css" />
+        <link href="static/css/theme768.css" rel="stylesheet" type="text/css" />
+        <link href="static/css/theme480.css" rel="stylesheet" type="text/css" />
+        <link href="static/css/theme320.css" rel="stylesheet" type="text/css" />
+        <link href="static/css/theme319.css" rel="stylesheet" type="text/css" />
+        <link href="static/css/quickweb.css" rel="stylesheet" type="text/css" />
+        <link href="static/fonts/style.css" rel="stylesheet" type="text/css" />   
+        <link href="static/css/slider_css.css" type="text/css" rel="stylesheet" />
+        <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,600,700,900' rel='stylesheet' type='text/css'/>
+
+
+        <script src="static/js/jquery-ui.js"></script>
+        <script src="static/js/jquery-1.11.3.min.js"></script>
+        <script src="static/js/slider.js"></script>
+        <script src="static/js/plugin.js"></script>
+    </head>
+    <body>
+        <div class="main">
+            <header class="header">
+                <div class="container">
+                    <div class="col-12">
+                        <div class="col-4 mb-11 logo-set">
+                            <!--                        <div class="logo"><img src="image/blacklogo.png" /></div>-->
+                            <h1><div class="main-title font-color-m-light">Chatbot</div></h1>
+
+                        </div>
+
+                        <nav class="mob-menu-icon mb-1">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </nav>
+
+
+                        <nav class="col-8 menu mob-menu pull-right">
+
+                            <nav class="mob-menu-icon" style="padding: 26px 26px;width: 100%;box-sizing: border-box;border-bottom:2px solid #1565C0; ">
+
+                                <span class="icon-bar slide-icon-menu-color"></span>
+                                <span class="icon-bar slide-icon-menu-color"></span>
+                                <span class="icon-bar slide-icon-menu-color"></span>
+
+                            </nav>
+                            <!--                        <div class="menu-item-box center "><a href="#" class="menu_link">Home</a>
+                            
+                                                        <div class="sub_cata" style="height: 200px;position: absolute;z-index: 99999;background-color: #000;margin-top: 29px;">
+                                                            Test sub cata
+                                                        
+                                                        </div>
+                            
+                                                    </div>-->
+                            <div class="menu-item-box center "><a href="/" class="menu-link">Home</a></div>
+                            <div class="menu-item-box center "><a href="#about" class="menu-link">About</a></div>
+                            <div class="menu-item-box center "><a href="#contact" class="menu-link">Contact</a></div>
+                            <div class="menu-item-box center "><a href="/Ulogin" class="menu-link">User Login</a></div>
+                            <div class="menu-item-box center "><a href="/Register" class="menu-link">Sign Up</a></div>
+
+                        </nav>
+
+                    </div>
+                </div>
+            </header>
+            <section class="banner top" id="home" style="background-image:url(static/image/banner1.jpeg);">
+                <div class="texture">
+                    <div class="container">
+                        <div class="col-5 mb-12 mb-center banner-box">
+
+                            <div class="banner_line1"></div>
+                            <div class="banner_brief_text"></div>
+                            <div    class="mb-center mb-12">
+                            </div>          
+                        </div>
+                        <div class="col-7 mb-12 banner-image"  style="position:relative;"><!--<img src="image/banner2_image.png"  />--></div>
+                    </div>
+                </div>
+                <!--  <div class="col-12 banner-extra-div color-black-s-light">
+          
+             </div>-->
+            </section>
+
+            <section class="contact section-padding color-white">
+                <div class="container">
+                    <div class="main-title font-color-m-light">Sign Up</div>
+                    <form action="/reg" method="POST">
+                        <div class="col-12">
+                            <div class="textbox-set col-12">
+                                <div class="col-12 textbox-box padding-tblr"><input type="text" class="textbox" name="username" placeholder="Name"/><br></div>
+                                <div class="col-12 textbox-box padding-tblr"><input type="email" class="textbox" name="email" placeholder="Email"/><br></div>
+                                <div class="col-12 textbox-box padding-tblr"><input type="password" class="textbox" name="password" placeholder="Password"/><br></div>
+                                <div class="col-12 textbox-box padding-tblr"><input type="text" class="textbox" name="add" placeholder="Address"/><br></div>
+                                <div class="col-12 textbox-box padding-tblr"><input type="text" class="textbox" name="mob" placeholder="Phone"/><br></div>
+                                <center><div><button id="send_email" value="Register" class="view-template" style="border:#606873;border-bottom: 2px solid #64A548;">Send</button></div></center>
+                            </div>
+                        </div>
+                    </form> 
+                </div>
+            </section>
+
+
+        <section class="choose-theme section-padding color-white"  id="about">
+            <div class="container">
+                <div class="main-title font-color-m-light">About Us.</div>
+                <p class="main-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vitae nibh nisl. Cras et mauris eget lorem ultricies ferme ntum a in diam. </p>
+                <div class="col-8 about-image"><img src="static/image/22.png" style="" /></div>
+                <div class="col-4 padding-lr" style="box-sizing:border-box;" >
+                    <div class="sub-title font-color-s-light">
+                        Everything  you need
+                    </div>
+
+                    <div class="content-box" style="">                    Whether you need simple pages, striking galleries, a professional blog, or an online store, it's all included with your Squarespace website. Best of all, everything is mobile-ready right from the start.
+                    </div>
+                    <a href="#services"><div class="view-template" >View More</div></a>
+                </div>
+
+            </div>
+
+        </section>
+
+<!--        <section class="contact section-padding color-white">-->
+<!--            <div class="container">-->
+<!--                <div class="main-title font-color-m-light">Contact Us</div>-->
+<!--                <p class="main-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vitae nibh nisl. Cras et mauris eget lorem ultricies ferme ntum a in diam. </p>-->
+<!--                <form action="MAILTO:gargk13@gmail.com"  method="post" enctype="text/plain">-->
+<!--                    <div class="col-12">-->
+<!--                        <div class="textbox-set col-12">-->
+<!--                            <div class="col-6 mb-6 textbox-box padding-tblr"><input type="text" class="textbox" placeholder="Name"/></div>-->
+<!--                            <div class="col-6 mb-6 textbox-box padding-tblr"><input type="text" class="textbox" placeholder="Phone" /></div>-->
+<!--                            <div class="col-12 textbox-box padding-tblr"><input type="text" class="textbox" placeholder="Email" /></div>-->
+
+<!--                            <div class="col-12 textbox-box padding-tblr"><textarea  class="col-12 textbox" placeholder="Message" style="height:100px;padding:10px 0px;resize:none;"></textarea></div>-->
+
+<!--                            <div class="send padding-lr"><button id="send_email" value="Send" class="view-template" style="border:none;border-bottom: 2px solid #64A548;">Send</button></div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </form> -->
+<!--            </div>-->
+<!--        </section>-->
+
+        <section class="footer">
+
+            <div class="bottom-footer">
+                <div class="container">
+                    <div class="col-12">
+                        <div class="col-6 mb-6" style="color:#606873">
+                            <div class="footer-menu" style="vertical-align:middle;">
+                                <div class="col-3 footer-menu-box-link">Home</div>
+                                <div class="col-3 footer-menu-box-link">About Us </div>
+                                <div class="col-3 footer-menu-box-link">Privacy policy</div>
+                                <div class="col-3 footer-menu-box-link">Sitemap</div>
+
+                            </div>
+                        </div>
+                        <div class="col-6 mb-6 social right"><div class="col-3"><i class="quickweb-icon-facebook"></i></div><div class="col-3"><i class="quickweb-icon-twitter"></i></div><div class="col-3"><i class="quickweb-icon-youtube"></i></div><div class="col-3"><i class="quickweb-icon-gplus-1"></i></div></div>
+                    </div>
+                    <div class="col-12 creator" style="padding-top:25px;">
+                        <div class="col-6 copyright">© 2019 BE Project All Rights Reserved. </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        </div>
+        <script type="text/javascript">
+            thumb_slider({
+                thumbs_to_show: 1,
+                thumbs_to_move: 1,
+                thumbs_width: 0,
+                thumbs_count: 0,
+                timeout: 10000,
+                parent_id: "main_slider",
+                container_class: "thumb_slider",
+                thumb_class: "thumbs",
+                spacing: 0,
+                processing: false,
+                hover: false,
+                next_class: "next",
+                prev_class: "prev",
+                timer: setTimeout(function () {
+                })
+
+            });
+        </script>
+    </body>
+</html>
